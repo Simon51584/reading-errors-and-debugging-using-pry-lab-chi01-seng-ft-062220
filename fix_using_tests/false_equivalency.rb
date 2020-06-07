@@ -17,10 +17,10 @@ def selection(num)
   else num = 2
      "HAM HAM HAM IN MY TUMMY"
   end 
+  binding.pry
+  puts 'hello'
+
 end
-
-binding.pry 
-
 
 def runner
   prompt_user
