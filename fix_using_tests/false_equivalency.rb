@@ -18,8 +18,10 @@ def selection(num)
   elsif num = 2
     binding.pry 
      "HAM HAM HAM IN MY TUMMY"
+   end 
+   selection(2)
 end
-puts selection(2)
+
 
 def runner
   prompt_user
