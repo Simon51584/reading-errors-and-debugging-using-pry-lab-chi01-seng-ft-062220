@@ -5,7 +5,7 @@ def start_game(player1, player2)
   "Hello #{player1} & #{playar2}"
 end
 
-puts start_game("Rocky", "Bullwinkle")
+start_game("Rocky", "Bullwinkle")
 binding.pry 
 
 def play_game(player2)
