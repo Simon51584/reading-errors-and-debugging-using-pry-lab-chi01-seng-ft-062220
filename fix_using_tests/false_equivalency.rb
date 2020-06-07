@@ -11,10 +11,10 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
-def selection(num1, num2)
-  if num1 = 1  
+def selection(num)
+  if num = 1  
      "YUM YUM MUNCH MUNCH MUNCH"
-  or num2 = 2
+  or num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
