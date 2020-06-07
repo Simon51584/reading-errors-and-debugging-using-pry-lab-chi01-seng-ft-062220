@@ -11,7 +11,7 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
-def selection(num >=2)
+def selection(num =2)
   if num = 1
     binding.pry 
      "YUM YUM MUNCH MUNCH MUNCH"
