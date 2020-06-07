@@ -19,7 +19,7 @@ def selection(num)
     binding.pry 
      "HAM HAM HAM IN MY TUMMY"
    end 
-   selection(2)
+   puts selection(2)
 end
 
 
